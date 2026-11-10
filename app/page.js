@@ -140,14 +140,43 @@ export default function Home() {
         </p>
       </section>
 
-      <section id="about" style={{ padding: "65px 8%" }}>
-        <h2>Meet Mauricio Roque</h2>
-        <p>
-          Your local Tustin real estate expert, helping
-          homeowners protect their equity and plan
-          their next move.
-        </p>
-      </section>
+      
+<section
+  id="about"
+  style={{
+    padding: "70px 8%",
+    display: "flex",
+    alignItems: "center",
+    flexWrap: "wrap",
+    gap: "40px",
+  }}
+>
+  <img
+    src="/Official%20Headshot%20Mauricio%20.png"
+    alt="Mauricio Roque, Mr. Tustin Real Estate"
+    style={{
+      width: "100%",
+      maxWidth: "340px",
+      height: "auto",
+      borderRadius: "12px",
+    }}
+  />
+
+  <div style={{ flex: "1 1 300px" }}>
+    <h2 style={{ color: "#142c49", fontSize: "32px" }}>
+      Meet Mauricio Roque
+    </h2>
+    <h3>Your Local Tustin Real Estate Expert</h3>
+    <p style={{ lineHeight: "1.8", fontSize: "17px" }}>
+      I'm Mauricio Roque, a local Realtor and Tustin resident
+      with over 10 years of real estate experience.
+      I help homeowners throughout Tustin and Orange County
+      sell with confidence, protect their equity, and
+      make smart decisions about their next move.
+    </p>
+  </div>
+</section>
+
 
       <section
         id="contact"
